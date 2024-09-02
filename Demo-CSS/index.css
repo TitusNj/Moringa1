@@ -1,0 +1,32 @@
+#profile {
+    text-align: center;
+}
+/* The below line looks for section with profile then anchors */
+#profile a {
+    margin-right :10px;
+    text-decoration: none;
+    color: none;
+}
+
+/* Used to show when hovering over something */
+#profile a:hover {
+    color:orangered;
+}
+
+
+/* .experience{
+    margin-right: 10rem ;
+} */
+
+
+/* The below says your styling the ul and its subset li */
+ ul>li {
+    margin-inline-start: 10rem !important;
+ }
+ ol>li {
+    list-style-type: "-";
+ }
+
+ * {
+    background-color: white;
+ }
